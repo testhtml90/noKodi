@@ -1,0 +1,877 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Red Hat Display);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jockey+One&display=swap);
+
+
+
+/* Bandeau de navigation (haut) */
+
+.top-page {
+    /* background-image: url("/site/maquette (adobe XD)/Page 2 (Selection)/fond/fond@2x.png"); */
+    height: 6vh;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(70deg, #ff0000, #0000ff);
+
+}
+
+.logo {
+    text-decoration: none;
+    list-style: none;
+}
+
+nav.nav1 li{
+    text-align: center;
+}
+
+
+
+/* Bandeau de navigation n°2 (haut/millieu) bouton1 ("revenir à l'accueil")*/
+
+.top-page2 {
+    text-align: center;
+    align-items: center;
+}
+
+nav.nav2 li{
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.bouton1 {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* construction des deux parties Gauche Droite */
+
+html {
+    height: 100%;
+}
+
+.gauche {
+    height: 5500px; /* 3500px (valeur final)*/
+    /* height: 100%; */
+    width: 50%;
+    float: left;
+    /* background-color: red; */
+
+}
+.gauche a {
+    text-align: left;
+    align-items: left;
+}
+.gauche {
+    text-align: center;
+    align-items: center;
+}
+
+
+.droite {
+    height: 5500px;
+    width: 49%;
+    float: left;
+    /* background-color: blue; */
+}
+.droite {
+    text-align: center;
+    align-items: center;
+    border-left-style: ridge;
+    margin-bottom: 2vh;
+}
+
+
+
+/* Deezer  */
+
+.deezer {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-deezer {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.div-img-deezer {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+.div-img-deezer li {
+    margin-top: 45px;
+    /* background-color: blueviolet; */
+
+}
+
+.text-deezer {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-deezer {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+/* Fip  */
+
+.fip {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-fip {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-fip {
+    width: 40%;
+    float: left;
+    /* background-color: blueviolet; */
+    text-align: center;
+}
+
+
+.text-fip {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-fip {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+
+/*######################## VIDEO ########################*/
+
+/* youtube  */
+
+.youtube {
+    /* text-align: left; */
+    margin-right: 10vh;
+}
+
+.titre-youtube {
+    text-align: left;
+    margin-left: 30%;
+    font-size: 40px;
+    font-weight: 900;
+    /* background-color: blueviolet; */
+
+}
+
+.div-img-youtube {
+    width: 39%;
+    float: left;
+    text-align: center;
+    height: 250px;
+   
+    /* background-color: blueviolet; */
+
+}
+.div-img-youtube li {
+    margin-top: -20px;
+}
+
+.text-youtube {
+    width: 59%;
+    float: left;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+
+    margin-right: 1.9vh;
+}
+
+.bouton-youtube {
+    text-align: right;
+    align-items: right;
+    float: right;
+    margin-right: 10vh;
+}
+
+
+/* Arte  */
+
+.arte {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-arte {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-arte {
+    width: 43%;
+    float: left;
+    /* background-color: blueviolet; */
+    text-align: center;
+    height: 200px;
+}
+
+
+.text-arte {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-arte {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+/* PAGE 2 */
+.arte-prog {
+    text-align: center;
+}
+/* Ligne 1 */
+.container-page2-arte-prog1 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte docu */
+.titre-arte-docu-reportage {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-docu-reportage {
+    flex-basis: auto;
+}
+
+/* arte Cinéma */
+.titre-cinema {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-cinema {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+
+/* Ligne 2 */
+.container-page2-arte-prog2 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte séries et fiction */
+.titre-arte-series-fictions {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-docu-series-fictions {
+    flex-basis: auto;
+    margin-right: 10vh;
+}
+
+/* arte info et société */
+.titre-info-societe {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-info-societe {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* Ligne 3 */
+.container-page2-arte-prog3 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte cuture et pop */
+.titre-arte-culture-pop {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-culture-pop {
+    flex-basis: auto;
+    margin-right: -15vh;
+
+}
+
+/* arte concert */
+.titre-arte-concert {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-concert {
+    flex-basis: auto;
+    margin-left: 25vh;
+    /* background-color: chocolate; */
+    margin-right: -2.5vh;
+}
+
+
+/* Ligne 4 */
+.container-page2-arte-prog4 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte sciences */
+.titre-arte-sciences {
+    font-size: 30px; 
+    font-weight: 900;
+}
+
+.arte-sciences {
+    flex-basis: auto;
+
+}
+
+/* arte Voyages et découvertes */
+.titre-arte-voyages-decouvertes {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-voyages-decouvertes {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* Ligne 5 */
+.container-page2-arte-prog5 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* arte Histoire */
+.titre-arte-histoire {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-histoire {
+    flex-basis: auto;
+    margin-right: 10vh;
+}
+
+/* arte les émissions */
+.titre-arte-les-emissions {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.arte-voyages-les-emissions {
+    flex-basis: auto;
+    margin-left: 10vh;
+}
+
+/* #################################################Page2################################################## */
+
+.container-page2-ligne1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip rock */
+.titre-fip-rock {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-rock {
+    flex-basis: auto;
+}
+
+/* fip jazz */
+.titre-fip-jazz {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-jazz {
+    flex-basis: auto;
+}
+
+/* fip groove */
+.titre-fip-groove {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-groove {
+    flex-basis: auto;
+}
+
+.container-page2-ligne2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip pop */
+.titre-fip-pop {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-pop {
+    flex-basis: auto;
+}
+
+/* fip electro */
+.titre-fip-electro {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-electro {
+    flex-basis: auto;
+}
+
+/* fip monde */
+.titre-fip-monde {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-monde {
+    flex-basis: auto;
+}
+
+.container-page2-ligne3 {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* fip Reggae */
+.titre-fip-reggae {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-reggae {
+    flex-basis: auto;
+}
+
+/* fip Tout nouveau */
+.titre-fip-toutnouveau {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-electro {
+    flex-basis: auto;
+}
+
+/* soundcloud  */
+
+.soundcloud {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-soundcloud {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-soundcloud {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-soundcloud {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-soundcloud {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* Youzeek  */
+
+.youzeek {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-youzeek {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-youzeek {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-youzeek {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-youzeek {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* shazam  */
+
+.shazam {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-shazam {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-shazam {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-shazam {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-shazam {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+/* Bandcamps  */
+
+.bandcamps {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-bandcamps {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-bandcamps {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    margin-top: -60px;
+
+    /* background-color: blueviolet; */
+
+}
+
+.text-bandcamps {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-bandcamps {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+
+
+/* France TV  */
+
+.francetv {
+    text-align: left;
+    margin-right: 10vh;
+}
+
+.titre-francetv {
+    text-align: left;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.img-francetv {
+    width: 40%;
+    float: left;
+    text-align: center;
+    height: 250px;
+    
+    /* background-color: blueviolet; */
+
+}
+
+.text-francetv {
+    width: 60%;
+    float: center;
+    font-size: 35px;
+    text-align: left;
+    /* background-color: red; */
+}
+
+.bouton-francetv {
+    text-align: right;
+    align-items: right;
+    float: right;
+}
+
+
+
+
+.container-pagebas-ligne1 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* France 1 */
+.titre-france1 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france1 {
+    flex-basis: auto;
+}
+
+/* France 2 */
+.titre-france2 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france2 {
+    flex-basis: auto;
+}
+
+/* France 3 */
+.titre-france3 {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-france3 {
+    flex-basis: auto;
+}
+
+.container-pagebas-ligne2 {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+/* France 4 */
+.titre-france4 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-france4 {
+    flex-basis: auto;
+}
+
+/* France 5 */
+.titre-france5 {
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fip-frnace5 {
+    flex-basis: auto;
+}
+
+/* France O */
+.titre-franceo {
+    font-size: 30px;
+    font-weight: 900;
+}
+.fip-franceo {
+    flex-basis: auto;
+}
+
+
+/* ################################# Pied de Page #################################### */
+/* pied de page 1 bouton (haut de page)*/
+
+.bouton2 {
+    text-align: center;
+    align-items: center;
+}
+
+body {
+
+    margin: 0;
+
+    text-decoration: none;
+    list-style: none;
+
+    height: 100%;
+}
+
+.footer {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+html { 
+    scroll-behavior: smooth; 
+}
+
+
+/* footer bas */
+
+.footer-bas {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+
+    font-family: 'Jokey one';
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer a.netlify {
+
+    text-decoration: none;
+    color: black;
+    list-style: none;
+
+    margin-left: -3vh;
+}
+
+footer a.github {
+
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+footer p.copyright {
+
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}

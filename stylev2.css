@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+@import url(https://fonts.googleapis.com/css2?family=Red+Hat+Text&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Red Hat Display);
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jockey+One&display=swap);
+@font-face {
+  font-family: "Red Hat Display Bold";
+  src: url (./Fonts/RedHatDisplay-Bold.otf);
+}
+@font-face {
+  font-family: "Red Hat Display Black";
+  src: url (./Fonts/RedHatDisplay-Black.otf);
+}
+
+/* entre 0 et 650 px */
+@media screen and (max-width: 650px) {
+  /*################################## GLOBAL #############################"*/
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  * {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  body {
+    text-align: center;
+    overflow-x: hidden;
+  }
+  h3 {
+    font-family: Arial;
+    font-size: 6vh;
+    font-style: bold;
+    color: #737373;
+  }
+  h4 {
+    font-family: "Red Hat Display Black";
+    font-size: 3.5vh;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: left;
+    margin-left: 10%;
+  }
+  p {
+    margin: 0 7vh;
+    text-align: justify;
+  }
+  button {
+    background: linear-gradient(90deg, #ff0000, #0000ff);
+    opacity: 50%;
+    box-shadow: 0px 2.5px 5px black;
+    border: 0px white;
+    border-radius: 50px;
+    height: 4vh;
+    width: 20vh;
+    font-family: "Red Hat Display Black";
+    font-size: 2vh;
+    cursor: pointer;
+    color: white;
+  }
+  button:active {
+    background: rgba(220, 220, 220, 0.507);
+  }
+
+  /*################################## HEADER #############################"*/
+  .header-gradient {
+    background: linear-gradient(70deg, #ff0000, #0000ff);
+    height: 6vh;
+  }
+  .header-gradient {
+    text-align: center;
+    color: white;
+    font-size: 3.5vh;
+  }
+
+  /*################################## AUDIO #############################"*/
+}
